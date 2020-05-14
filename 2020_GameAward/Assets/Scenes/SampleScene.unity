@@ -1764,8 +1764,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce6494aa4de444241a45813801600977, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Gameovermax: 5
-  gameOver: {fileID: 353416766}
 --- !u!1 &1440319327
 GameObject:
   m_ObjectHideFlags: 0
@@ -1908,8 +1906,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce6494aa4de444241a45813801600977, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Gameovermax: 5
-  gameOver: {fileID: 353416766}
 --- !u!1 &1462232914
 GameObject:
   m_ObjectHideFlags: 0
@@ -2643,16 +2639,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2088953286}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a77430c31511b034abe8356f00c3b2f9, type: 3}
+  m_Script: {fileID: 11500000, guid: 61f9e9764d4b4924c9fa88af3249f079, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj: {fileID: 0}
-  babyhandobj: {fileID: 0}
-  babyhandArea: {fileID: 2088953286}
-  handflg: 0
-  handmove: 0
-  handmovemax: 10
-  fastpos: {x: 0, y: 0, z: 0}
+  handpos: {x: 0, y: 0, z: 0}
+  startposY: 5
+  movemax: 5
+  babyhandobj: {fileID: 4092959063857317490, guid: 65333b42a78d5a04ea8bc81125ba4876,
+    type: 3}
 --- !u!1001 &340661632247461512
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -82,6 +82,7 @@
     <Compile Include="Assets\StreamLine.cs" />
     <Compile Include="Assets\StreamPoint.cs" />
     <Compile Include="Assets\TimeScore.cs" />
+    <Compile Include="Assets\babyhand.cs" />
     <None Include="Assets\Demigiant\DOTween\readme.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/2020/2020_GameAward/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
