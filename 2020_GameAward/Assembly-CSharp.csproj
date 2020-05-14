@@ -63,7 +63,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Coin.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
@@ -71,18 +70,22 @@
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
-    <Compile Include="Assets\EnemyScript.cs" />
-    <Compile Include="Assets\GameClearScript.cs" />
-    <Compile Include="Assets\GameOverScript.cs" />
-    <Compile Include="Assets\OxygenGauge.cs" />
-    <Compile Include="Assets\OxygenUnit.cs" />
-    <Compile Include="Assets\Player.cs" />
-    <Compile Include="Assets\RubberBall.cs" />
-    <Compile Include="Assets\SESource.cs" />
-    <Compile Include="Assets\Score.cs" />
-    <Compile Include="Assets\StreamLine.cs" />
-    <Compile Include="Assets\StreamPoint.cs" />
-    <Compile Include="Assets\TimeScore.cs" />
+    <Compile Include="Assets\Script\Coin.cs" />
+    <Compile Include="Assets\Script\EnemyScript.cs" />
+    <Compile Include="Assets\Script\ForwardTracer.cs" />
+    <Compile Include="Assets\Script\GameClearScript.cs" />
+    <Compile Include="Assets\Script\GameOverScript.cs" />
+    <Compile Include="Assets\Script\MovingRubberBall.cs" />
+    <Compile Include="Assets\Script\OxygenGauge.cs" />
+    <Compile Include="Assets\Script\OxygenUnit.cs" />
+    <Compile Include="Assets\Script\Player.cs" />
+    <Compile Include="Assets\Script\RubberBall.cs" />
+    <Compile Include="Assets\Script\SESource.cs" />
+    <Compile Include="Assets\Script\Score.cs" />
+    <Compile Include="Assets\Script\SearchLight.cs" />
+    <Compile Include="Assets\Script\StreamLine.cs" />
+    <Compile Include="Assets\Script\StreamPoint.cs" />
+    <Compile Include="Assets\Script\TimeScore.cs" />
     <None Include="Assets\Demigiant\DOTween\readme.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/ths70634/Documents/2020_GameAward/2020_GameAward/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
