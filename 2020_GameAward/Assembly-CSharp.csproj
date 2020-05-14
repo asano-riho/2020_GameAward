@@ -63,7 +63,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Coin.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
@@ -71,45 +70,49 @@
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
-    <Compile Include="Assets\EnemyScript.cs" />
-    <Compile Include="Assets\GameClearScript.cs" />
-    <Compile Include="Assets\GameOverScript.cs" />
-    <Compile Include="Assets\OxygenGauge.cs" />
-    <Compile Include="Assets\OxygenUnit.cs" />
-    <Compile Include="Assets\Player.cs" />
-    <Compile Include="Assets\RubberBall.cs" />
-    <Compile Include="Assets\SESource.cs" />
-    <Compile Include="Assets\Score.cs" />
-    <Compile Include="Assets\StreamLine.cs" />
-    <Compile Include="Assets\StreamPoint.cs" />
-    <Compile Include="Assets\TimeScore.cs" />
+    <Compile Include="Assets\Script\Coin.cs" />
+    <Compile Include="Assets\Script\EnemyScript.cs" />
+    <Compile Include="Assets\Script\ForwardTracer.cs" />
+    <Compile Include="Assets\Script\GameClearScript.cs" />
+    <Compile Include="Assets\Script\GameOverScript.cs" />
+    <Compile Include="Assets\Script\MovingRubberBall.cs" />
+    <Compile Include="Assets\Script\OxygenGauge.cs" />
+    <Compile Include="Assets\Script\OxygenUnit.cs" />
+    <Compile Include="Assets\Script\Player.cs" />
+    <Compile Include="Assets\Script\RubberBall.cs" />
+    <Compile Include="Assets\Script\SESource.cs" />
+    <Compile Include="Assets\Script\Score.cs" />
+    <Compile Include="Assets\Script\SearchLight.cs" />
+    <Compile Include="Assets\Script\StreamLine.cs" />
+    <Compile Include="Assets\Script\StreamPoint.cs" />
+    <Compile Include="Assets\Script\TimeScore.cs" />
     <None Include="Assets\Demigiant\DOTween\readme.txt" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/ths70634/Desktop/作りたいゲーム/2020_GameAward/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/ths70634/Documents/2020_GameAward/2020_GameAward/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/ths70634/Desktop/作りたいゲーム/2020_GameAward/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/ths70634/Documents/2020_GameAward/2020_GameAward/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/ths70634/Desktop/作りたいゲーム/2020_GameAward/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/ths70634/Documents/2020_GameAward/2020_GameAward/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/ths70634/Desktop/作りたいゲーム/2020_GameAward/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/ths70634/Documents/2020_GameAward/2020_GameAward/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/ths70634/Desktop/作りたいゲーム/2020_GameAward/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/ths70634/Documents/2020_GameAward/2020_GameAward/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/ths70634/Desktop/作りたいゲーム/2020_GameAward/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/ths70634/Documents/2020_GameAward/2020_GameAward/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/ths70634/Desktop/作りたいゲーム/2020_GameAward/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/ths70634/Documents/2020_GameAward/2020_GameAward/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/ths70634/Desktop/作りたいゲーム/2020_GameAward/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/ths70634/Documents/2020_GameAward/2020_GameAward/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/ths70634/Desktop/作りたいゲーム/2020_GameAward/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/ths70634/Documents/2020_GameAward/2020_GameAward/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.7f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -289,7 +292,7 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.7f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>C:/Users/ths70634/Desktop/作りたいゲーム/2020_GameAward/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+      <HintPath>C:/Users/ths70634/Documents/2020_GameAward/2020_GameAward/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.7f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
