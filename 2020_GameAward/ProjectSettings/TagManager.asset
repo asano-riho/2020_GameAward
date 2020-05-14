@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Score
   - SESource
+  - babyhand
   layers:
   - Default
   - TransparentFX
